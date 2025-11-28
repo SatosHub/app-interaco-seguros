@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'App de encontros para todos os gêneros. Chat gratuito, chamadas pagas com créditos.',
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
